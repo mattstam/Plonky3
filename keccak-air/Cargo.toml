@@ -1,10 +1,11 @@
 [package]
 name = "p3-keccak-air"
-version = "0.1.0"
+version = "0.1.2-succinct"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 
 [dependencies]
+<<<<<<< HEAD
 p3-air = { path = "../air" }
 p3-field = { path = "../field" }
 p3-matrix = { path = "../matrix" }
@@ -29,6 +30,15 @@ p3-poseidon2 = { path = "../poseidon2" }
 p3-symmetric = { path = "../symmetric" }
 p3-uni-stark = { path = "../uni-stark" }
 rand = "0.8.5"
+=======
+p3-util =  "0.1.2-succinct" 
+p3-field = "0.1.2-succinct" 
+p3-matrix = "0.1.2-succinct" 
+p3-maybe-rayon = "0.1.2-succinct" 
+p3-air = "0.1.2-succinct"
+tracing = "0.1.37"
+
+>>>>>>> 5d76b97 (publishing 0.1.2-succinct)
 tracing-subscriber = { version = "0.3.17", features = ["std", "env-filter"] }
 tracing-forest = { version = "0.1.6", features = ["ansi", "smallvec"] }
 

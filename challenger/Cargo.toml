@@ -1,10 +1,11 @@
 [package]
 name = "p3-challenger"
-version = "0.1.0"
+version = "0.1.2-succinct"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 
 [dependencies]
+<<<<<<< HEAD
 p3-field = { path = "../field" }
 p3-util = { path = "../util" }
 p3-maybe-rayon = { path = "../maybe-rayon" }
@@ -13,3 +14,11 @@ tracing = "0.1.37"
 
 [dev-dependencies]
 p3-goldilocks = { path = "../goldilocks" }
+=======
+p3-field = "0.1.2-succinct" 
+p3-util =  "0.1.2-succinct" 
+p3-maybe-rayon = "0.1.2-succinct" 
+p3-symmetric = "0.1.2-succinct" 
+tracing = "0.1.37"
+
+>>>>>>> 5d76b97 (publishing 0.1.2-succinct)

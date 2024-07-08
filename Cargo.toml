@@ -21,6 +21,7 @@ members = [
     "matrix",
     "merkle-tree",
     "maybe-rayon",
+    "mds",
     "mersenne-31",
     "monolith",
     "poseidon",

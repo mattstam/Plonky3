@@ -1,28 +1,37 @@
-[package]
-name = "p3-rescue"
-version = "0.0.1"
-edition = "2021"
-license = "MIT OR Apache-2.0"
-
-[dependencies]
-gcd = "2.3.0"
-itertools = "0.12.0"
-modinverse = "0.1.1"
-num = "0.4.0"
-num-integer = "0.1.45"
-p3-field = { path = "../field" }
-p3-mds = { path = "../mds" }
-p3-symmetric = { path = "../symmetric" }
-p3-util = { path = "../util" }
-rand = "0.8.5"
-sha3 = "0.10.8"
-
-[dev-dependencies]
-p3-baby-bear = { path = "../baby-bear" }
-p3-goldilocks = { path = "../goldilocks" }
-p3-mersenne-31 = { path = "../mersenne-31" }
-criterion = "0.5.1"
-
-[[bench]]
-name = "rescue"
-harness = false
+1:[package]
+2:name = "p3-rescue"
+3:<<<<<<< HEAD
+4:version = "0.0.1"
+6:version = "0.1.2-succinct"
+7:>>>>>>> 5d76b97 (publishing 0.1.2-succinct)
+8:edition = "2021"
+9:license = "MIT OR Apache-2.0"
+10:
+11:[dependencies]
+12:gcd = "2.3.0"
+13:itertools = "0.12.0"
+14:modinverse = "0.1.1"
+15:num = "0.4.0"
+16:num-integer = "0.1.45"
+17:<<<<<<< HEAD
+18:p3-field = { path = "../field" }
+19:p3-mds = { path = "../mds" }
+20:p3-symmetric = { path = "../symmetric" }
+21:p3-util = { path = "../util" }
+23:p3-field = "0.1.2-succinct" 
+24:p3-mds = "0.1.2-succinct"
+25:p3-symmetric = "0.1.2-succinct" 
+26:p3-util =  "0.1.2-succinct" 
+27:>>>>>>> 5d76b97 (publishing 0.1.2-succinct)
+28:rand = "0.8.5"
+29:sha3 = "0.10.8"
+30:
+31:[dev-dependencies]
+32:p3-baby-bear = { path = "../baby-bear" }
+33:p3-goldilocks = { path = "../goldilocks" }
+34:p3-mersenne-31 = { path = "../mersenne-31" }
+35:criterion = "0.5.1"
+36:
+37:[[bench]]
+38:name = "rescue"
+39:harness = false

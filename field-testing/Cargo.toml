@@ -1,13 +1,15 @@
 [package]
 name = "p3-field-testing"
-version = "0.1.0"
+version = "0.1.2-succinct"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 
 [dependencies]
+<<<<<<< HEAD
 p3-field = { path = "../field" }
+=======
+p3-field = "0.1.2-succinct" 
+>>>>>>> 5d76b97 (publishing 0.1.2-succinct)
 rand = { version = "0.8.5", features = ["min_const_gen"] }
 criterion = "0.5.1"
 
-[dev-dependencies]
-p3-baby-bear = { path = "../baby-bear" }
