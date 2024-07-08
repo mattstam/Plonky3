@@ -5,25 +5,11 @@ edition = "2021"
 license = "MIT OR Apache-2.0"
 
 [dependencies]
-<<<<<<< HEAD
-p3-field = { path = "../field" }
-p3-mds = { path = "../mds" }
-p3-symmetric = { path = "../symmetric" }
-rand = "0.8.5"
-
-[dev-dependencies]
-p3-baby-bear = { path = "../baby-bear" }
-p3-goldilocks = { path = "../goldilocks" }
-p3-mersenne-31 = { path = "../mersenne-31" }
-criterion = "0.5.1"
-
-=======
 p3-field = "0.1.2-succinct" 
 p3-mds = "0.1.2-succinct"
 p3-symmetric = "0.1.2-succinct" 
 rand = "0.8.5"
 
->>>>>>> 5d76b97 (publishing 0.1.2-succinct)
 [[bench]]
 name = "poseidon"
 harness = false

@@ -5,16 +5,6 @@ edition = "2021"
 license = "MIT OR Apache-2.0"
 
 [dependencies]
-<<<<<<< HEAD
-p3-challenger = { path = "../challenger" }
-p3-commit = { path = "../commit" }
-p3-dft = { path = "../dft" }
-p3-field = { path = "../field" }
-p3-interpolation = { path = "../interpolation" }
-p3-matrix = { path = "../matrix" }
-p3-maybe-rayon = { path = "../maybe-rayon" }
-p3-util = { path = "../util" }
-=======
 p3-challenger = "0.1.2-succinct" 
 p3-commit = "0.1.2-succinct"
 p3-dft = "0.1.2-succinct"
@@ -23,27 +13,10 @@ p3-interpolation = "0.1.2-succinct"
 p3-matrix = "0.1.2-succinct" 
 p3-maybe-rayon = "0.1.2-succinct" 
 p3-util =  "0.1.2-succinct" 
->>>>>>> 5d76b97 (publishing 0.1.2-succinct)
 itertools = "0.12.0"
 tracing = "0.1.37"
 serde = { version = "1.0", default-features = false, features = ["derive", "alloc"] }
 
-<<<<<<< HEAD
-[dev-dependencies]
-p3-baby-bear = { path = "../baby-bear" }
-p3-dft = { path = "../dft" }
-p3-goldilocks = { path = "../goldilocks" }
-p3-mersenne-31 = { path = "../mersenne-31" }
-p3-mds = { path = "../mds" }
-p3-merkle-tree = { path = "../merkle-tree" }
-p3-poseidon2 = { path = "../poseidon2" }
-p3-symmetric = { path = "../symmetric" }
-criterion = "0.5.1"
-rand = "0.8.5"
-rand_chacha = "0.3.1"
-
-=======
->>>>>>> 5d76b97 (publishing 0.1.2-succinct)
 [[bench]]
 name = "fold_even_odd"
 harness = false

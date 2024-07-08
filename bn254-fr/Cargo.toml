@@ -5,15 +5,9 @@ edition = "2021"
 license = "MIT OR Apache-2.0"
 
 [dependencies]
-<<<<<<< HEAD
-p3-field = { path = "../field" }
-p3-poseidon2 = { path = "../poseidon2" }
-p3-symmetric = { path = "../symmetric" }
-=======
 p3-field = "0.1.2-succinct" 
 p3-poseidon2 = "0.1.2-succinct"
 p3-symmetric = "0.1.2-succinct" 
->>>>>>> 5d76b97 (publishing 0.1.2-succinct)
 
 ff = { version = "0.13", features = ["derive", "derive_bits"] }
 num-bigint = { version = "0.4.3", default-features = false }

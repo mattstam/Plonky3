@@ -5,11 +5,7 @@ edition = "2021"
 license = "MIT OR Apache-2.0"
 
 [dependencies]
-<<<<<<< HEAD
-p3-symmetric = { path = "../symmetric" }
-=======
 p3-symmetric = "0.1.2-succinct" 
->>>>>>> 5d76b97 (publishing 0.1.2-succinct)
 blake3 = "1.5"
 
 [features]

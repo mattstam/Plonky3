@@ -5,11 +5,7 @@ edition = "2021"
 license = "MIT OR Apache-2.0"
 
 [dependencies]
-<<<<<<< HEAD
-p3-util = { path = "../util" }
-=======
 p3-util = "0.1.2-succinct" 
->>>>>>> 5d76b97 (publishing 0.1.2-succinct)
 num-bigint = { version = "0.4.3", default-features = false }
 num-traits = { version = "0.2.18", default_features = false }
 
